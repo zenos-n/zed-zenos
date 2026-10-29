@@ -1,0 +1,10 @@
+id = "zenos"
+name = "ZenOS DSL"
+version = "0.1.0"
+schema_version = 1
+authors = ["doromiert"]
+description = "ZenOS DSL syntax highlighting, brackets, indentation and outline."
+
+[grammars.zenos]
+repository = "file:///Users/doromiert/Projects/tree-sitter-zenos"
+rev = "bad79308f7da0ad062d5ec15b5a6664cfa501b45"

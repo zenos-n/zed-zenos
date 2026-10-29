@@ -1,0 +1,5 @@
+("(" @open ")" @close)
+("[" @open "]" @close)
+("{" @open "}" @close)
+(string_expression "\"" @open "\"" @close)
+(indented_string_expression "''" @open "''" @close)
