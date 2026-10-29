@@ -6,5 +6,5 @@ authors = ["doromiert"]
 description = "ZenOS DSL syntax highlighting, brackets, indentation and outline."
 
 [grammars.zenos]
-repository = "file:///Users/doromiert/Projects/tree-sitter-zenos"
-rev = "bad79308f7da0ad062d5ec15b5a6664cfa501b45"
+repository = "https://github.com/zenos-n/tree-sitter-zenos"
+rev = "7c1cdc5dd2d7ffc3b57078493c2a9b341d9ae0fc"
