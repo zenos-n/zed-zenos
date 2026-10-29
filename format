@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+extension_dir="$(cd -- "$(dirname -- "$0")" && pwd)"
+export PYTHONPATH="$extension_dir/../zenpkgs/lib/zen-dsl${PYTHONPATH:+:$PYTHONPATH}"
+exec /run/current-system/sw/bin/python3 -m zenlang.formatter "${1:-stdin.zcfg}"
